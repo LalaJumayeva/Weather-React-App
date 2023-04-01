@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.app{
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.app:before{
+    content: '';
+    background: url('./assets/background.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.app .search{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.app input{
+    padding: 0.8rem 1.6rem;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.27);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+    outline: none;
+
+}
+
+::placeholder{
+    color:aliceblue;
+    font-weight: 100;
+}
+
+.container {
+    max-width: 700px;
+    height: 700px;
+    margin: auto;
+    padding: 5.5rem 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app .top{
+    width: 100%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+
+.app .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+
+.app .bold{
+    font-weight: 500;
+}
+
+.app .text{
+    font-weight: 200;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+}
+
+.description img{
+    padding-right: 8px;
+}
