@@ -1,5 +1,5 @@
 Hello! 
-[Check the weather react app via this link!](https://lalajumayeva.github.io/Weather-App/)
+[Check the weather react app via this link!](https://lalajumayeva.github.io/Weather-React-App/)
 
 
 # Getting Started with Create React App
