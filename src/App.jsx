@@ -21,7 +21,6 @@ function App() {
       console.log(error.response.data);
       console.log(error.response.status);
       console.log(error.response.headers);
-      alert(`Error: ${error.response.data.message}`);
     } else if (error.request) {
       // The request was made but no response was received
       // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
